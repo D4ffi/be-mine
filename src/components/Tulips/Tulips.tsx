@@ -2,10 +2,9 @@ import './Tulips.css'
 
 interface TulipsProps {
   messageLines?: string[]
-  scale?: number
 }
 
-export default function Tulips({ messageLines = ["¿QUIERES", "SER MI", "NOVIA?"], scale = 0.5 }: TulipsProps) {
+export default function Tulips({ messageLines = ["¿QUIERES", "SER MI", "NOVIA?"] }: TulipsProps) {
   return (
     <div className="tulips-wrapper">
       <div className="tulips-container">
