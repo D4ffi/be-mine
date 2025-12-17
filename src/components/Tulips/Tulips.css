@@ -50,7 +50,7 @@
 
     .tulips-message {
         font-size: clamp(2rem, 12vw, 5rem);
-        bottom: 70vmin;
+        bottom: 85vmin;
     }
 
     .tulips-container {
